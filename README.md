@@ -1,14 +1,17 @@
-# Nerfies
+# RAE_ECMR_2025
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for the [RAE_ECMR_2025 website](https://dfki-ni.github.io/RAE_ECMR_2025).
 
-If you find Nerfies useful for your work please cite:
+If you find RAE_ECMR_2025 useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@misc{lima2025actingplanninghierarchicaloperational,
+      title={Acting and Planning with Hierarchical Operational Models on a Mobile Robot: A Study with RAE+UPOM}, 
+      author={Oscar Lima and Marc Vinci and Sunandita Patra and Sebastian Stock and Joachim Hertzberg and Martin Atzmueller and Malik Ghallab and Dana Nau and Paolo Traverso},
+      year={2025},
+      eprint={2507.11345},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2507.11345}, 
 }
 ```
 
