@@ -146,7 +146,14 @@
     </div>
     <!--/ Abstract. -->
 
-    <!-- Paper video. -->
+    <!-- insert vertical space -->
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <br>
+      </div>
+    </div>
+
+    <!-- Paper video. (YouTube embedded explanation video) -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Brief explanation video</h2>
@@ -159,15 +166,93 @@
       </div>
     </div>
     <!--/ Paper video. -->
-  </div>
-</section>
 
+    <!-- insert vertical space -->
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <br>
       </div>
     </div>
 
+    <!-- All trial videos. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="container is-max-desktop">
+          <h2 class="title is-3">Experimental trials</h2>
+          <div class="columns is-centered">
+            <div class="column content has-text-centered">
+              <video id="taylor-en" controls playsinline height="100%">
+                <source src="./static/videos/exp_1.1_with_rviz_8x.mp4"
+                        type="video/mp4">
+              </video>
+              <p>1.1 Task completion with high utility (box used)</p>
+            </div>
 
+            <div class="column content has-text-centered">
+              <video id="taylor-cn" controls playsinline height="100%">
+                <source src="./static/videos/exp_1.2_with_rviz_8x.mp4"
+                        type="video/mp4">
+              </video>
+              <p class="is-bold">1.2 Task completion with high utility (box unavailable)</p>
+            </div>
 
+            <div class="column content has-text-centered">
+              <video id="taylor-de" controls playsinline height="100%">
+                <source src="./static/videos/exp_2.1_with_rviz_8x.mp4"
+                        type="video/mp4">
+              </video>
+              <p class="is-bold">2.1 Increased Object Spacing</p>
+            </div>
+          </div>
 
+          <div class="columns is-centered">
+            <div class="column content has-text-centered">
+              <video id="jakie" controls playsinline height="100%">
+                <source src="./static/videos/exp_3.1_with_rviz_8x.mp4"
+                        type="video/mp4">
+              </video>
+              <p>3.1 Execution failure<br> (arm failure / cable entangled)</p>
+            </div>
+
+            <div class="column content has-text-centered">
+              <video id="jakie-fr" controls playsinline height="100%">
+                <source src="./static/videos/exp_3.2_with_rviz_8x.mp4"
+                        type="video/mp4">
+              </video>
+              <p class="is-bold">3.2 Execution failure<br> (navigation failure)</p>
+            </div>
+
+            <div class="column content has-text-centered">
+              <video id="jakie-ja" controls playsinline height="100%">
+                <source src="./static/videos/exp_3.3_with_rviz_8x.mp4"
+                        type="video/mp4">
+              </video>
+              <p class="is-bold">3.3 Execution failure<br> (perception failure)</p>
+            </div>
+          </div>
+
+      </div>
+    </div>
+    <!--/ All trial videos. -->
+
+    <!-- insert vertical space -->
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <br>
+      </div>
+    </div>
+
+    <!-- Summary plots. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Summary plots</h2>
+        <figure class="image">
+          <img src="./static/files/combined_summary_plot.svg" alt="Combined Summary Plot">
+        </figure>
+      </div>
+    </div>
+    <!--/ Summary plots. -->
+
+</section>
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
